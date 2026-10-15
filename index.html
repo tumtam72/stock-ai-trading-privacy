@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>นโยบายความเป็นส่วนตัว · Privacy Policy — Stock &amp; AI Trading</title>
+<meta name="description" content="Privacy policy of the Stock &amp; AI Trading app for Android (Thai and English).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&amp;display=swap">
+<style>
+:root{--bg:#F4F6FB;--surface:#FFFFFF;--surface-2:#F8FAFC;--text:#0F172A;--body:#334155;--muted:#64748B;
+--border:#E2E8F0;--accent:#4F46E5;--accent-strong:#4338CA;--accent-soft:#EEF2FF;--accent-line:#C7D2FE;
+--btn:#4F46E5;--hero-1:#4338CA;--hero-2:#6D28D9;--topbar:rgba(255,255,255,.86);
+--shadow:0 1px 2px rgba(15,23,42,.04),0 10px 30px rgba(15,23,42,.06)}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1120;--surface:#111A2E;--surface-2:#0D1528;--text:#F1F5F9;
+--body:#CBD5E1;--muted:#94A3B8;--border:#23314D;--accent:#818CF8;--accent-strong:#A5B4FC;
+--accent-soft:rgba(129,140,248,.12);--accent-line:rgba(129,140,248,.32);--hero-1:#312E81;--hero-2:#4C1D95;
+--topbar:rgba(11,17,32,.86);--shadow:0 1px 2px rgba(0,0,0,.35),0 10px 30px rgba(0,0,0,.28)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--body);
+font:16px/1.75 "IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI","Leelawadee UI",Tahoma,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+@media (min-width:640px){.wrap{padding:0 24px}}
+.lang-radio{position:absolute;opacity:0;pointer-events:none}
+html:has(#lang-en:checked) [data-lang="th"],html:has(#lang-th:checked) [data-lang="en"]{display:none}
+.topbar{position:sticky;top:0;z-index:10;background:var(--topbar);border-bottom:1px solid var(--border);
+-webkit-backdrop-filter:saturate(1.4) blur(10px);backdrop-filter:saturate(1.4) blur(10px)}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;height:56px}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;color:var(--text);font-weight:600;font-size:15px;text-decoration:none}
+.brand span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.logo{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;color:#fff;
+background:linear-gradient(135deg,var(--hero-1),var(--hero-2))}
+.logo svg{width:18px;height:18px}
+.switch{flex:none;display:flex;padding:3px;border-radius:999px;background:var(--surface-2);border:1px solid var(--border)}
+.switch label{padding:4px 14px;border-radius:999px;font-size:14px;font-weight:500;line-height:1.5;color:var(--muted);
+cursor:pointer;user-select:none;transition:background .15s,color .15s}
+html:has(#lang-th:checked) label[for=lang-th],html:has(#lang-en:checked) label[for=lang-en]{background:var(--btn);color:#fff}
+.lang-radio:focus-visible~.topbar .switch{outline:2px solid var(--accent);outline-offset:2px}
+.hero{position:relative;overflow:hidden;color:#fff;padding:40px 0 92px;
+background:radial-gradient(900px 360px at 90% -20%,rgba(255,255,255,.16),transparent 60%),
+linear-gradient(135deg,var(--hero-1),var(--hero-2))}
+.hero .wrap{position:relative}
+.hero-mark{position:absolute;right:16px;top:-6px;width:120px;height:120px;opacity:.16;stroke-width:1.4}
+.eyebrow{margin:0 0 6px;font-size:14px;font-weight:500;color:rgba(255,255,255,.8)}
+.hero h1{margin:0;max-width:15em;font-size:clamp(28px,5.4vw,40px);line-height:1.3;font-weight:700;letter-spacing:-.01em}
+.updated{display:inline-flex;align-items:center;gap:7px;margin:18px 0 0;padding:5px 13px;border-radius:999px;
+font-size:13.5px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24)}
+.updated svg{width:15px;height:15px}
+.content{position:relative;margin-top:-60px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);
+padding:22px 18px;margin:0 0 16px;scroll-margin-top:72px}
+@media (min-width:640px){.card{padding:28px 32px}}
+.card h2{margin:0;color:var(--text);font-weight:600;font-size:clamp(19px,3.6vw,22px);line-height:1.4}
+.card p{margin:0 0 14px}
+.card p:last-child,.card ul:last-child{margin-bottom:0}
+strong{color:var(--text);font-weight:600}
+a{color:var(--accent-strong);text-decoration:underline;text-decoration-color:var(--accent-line);
+text-underline-offset:3px;overflow-wrap:anywhere}
+a:hover{text-decoration-color:currentColor}
+.glance{border-color:var(--accent-line);background:linear-gradient(180deg,var(--accent-soft),transparent 75%),var(--surface)}
+.glance-head{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.glance-icon{flex:none;width:38px;height:38px;padding:8px;border-radius:12px;color:#fff;background:var(--btn)}
+ul.checks{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+ul.checks li{position:relative;padding-left:34px;color:var(--text)}
+ul.checks li::before{content:"";position:absolute;left:0;top:3px;width:22px;height:22px;border-radius:50%;background:var(--btn)}
+ul.checks li::after{content:"";position:absolute;left:7px;top:9px;width:8px;height:4.5px;
+border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg)}
+.toc h2{margin-bottom:10px}
+.toc ol{list-style:none;margin:0 -10px;padding:0;display:grid;grid-template-columns:1fr;gap:2px}
+@media (min-width:640px){.toc ol{grid-template-columns:1fr 1fr;column-gap:12px}}
+.toc a{display:flex;gap:10px;align-items:baseline;padding:7px 10px;border-radius:10px;color:var(--body);
+text-decoration:none;font-size:15px;line-height:1.5}
+.toc a:hover{background:var(--accent-soft);color:var(--accent-strong)}
+.toc .n{flex:none;min-width:1.5em;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+.sec h2{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.num{flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:10px;font-size:15px;font-weight:700;
+color:var(--accent-strong);background:var(--accent-soft);border:1px solid var(--accent-line)}
+.sec ul{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:10px}
+.sec ul li{position:relative;padding-left:20px}
+.sec ul li::before{content:"";position:absolute;left:4px;top:.75em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.sec li.term{padding:12px 14px;border-radius:12px;background:var(--surface-2);border:1px solid var(--border)}
+.sec li.term::before{display:none}
+.term-name{display:block;margin-bottom:2px;color:var(--text);font-weight:600}
+.cta{display:inline-flex;align-items:center;gap:8px;margin-top:6px;padding:11px 18px;border-radius:12px;
+background:var(--btn);color:#fff;font-weight:600;text-decoration:none}
+.cta:hover{filter:brightness(1.08)}
+.cta svg{width:18px;height:18px}
+.footer{padding:4px 16px 48px}
+.footer-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 16px;color:var(--muted);font-size:14px}
+.footer-row a{display:inline-flex;align-items:center;gap:4px;color:var(--muted);text-decoration:none}
+.footer-row a:hover{color:var(--accent-strong)}
+.footer-row svg{width:16px;height:16px}
+@media (max-width:520px){.hero-mark{width:84px;height:84px;top:-14px;right:4px}}
+@media print{.topbar,.toc,.cta,.footer-row a{display:none}
+.hero{background:none;color:#000;padding:0 0 12px}.eyebrow{color:#475569}.updated{border-color:#CBD5E1;background:none}
+.hero-mark{display:none}.content{margin-top:0}.card{box-shadow:none;break-inside:avoid-page}body{background:#fff}}
+</style>
+</head>
+<body>
+<!-- Generated from PRIVACY_POLICY.md by build_privacy_policy.py — edit the Markdown, not this file -->
+<input type="radio" name="lang" id="lang-th" class="lang-radio" checked aria-label="ภาษาไทย">
+<input type="radio" name="lang" id="lang-en" class="lang-radio" aria-label="English">
+<div class="topbar"><div class="wrap topbar-inner">
+<a class="brand" href="#top"><span class="logo"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="15 7 21 7 21 13"/></svg></span><span>Stock &amp; AI Trading</span></a>
+<div class="switch"><label for="lang-th">ไทย</label><label for="lang-en">English</label></div>
+</div></div>
+<header class="hero" id="top"><div class="wrap"><svg class="hero-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6L12 3z"/><polyline points="8.8 12.2 11 14.4 15.4 10"/></svg><div class="hero-text" data-lang="th" lang="th"><p class="eyebrow">แอป Stock &amp; AI Trading บน Android</p><h1>นโยบายความเป็นส่วนตัว</h1><p class="updated"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/></svg>ปรับปรุงล่าสุด: 15 ตุลาคม 2569</p></div><div class="hero-text" data-lang="en" lang="en"><p class="eyebrow">Stock &amp; AI Trading for Android</p><h1>Privacy Policy</h1><p class="updated"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/></svg>Last updated: 15 October 2026</p></div></div></header>
+<main class="wrap content"><article data-lang="th" lang="th"><section class="card glance" id="th-glance"><div class="glance-head"><svg class="glance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6L12 3z"/><polyline points="8.8 12.2 11 14.4 15.4 10"/></svg><h2>สรุปสั้น ๆ</h2></div><ul class="checks">
+<li>ไม่ต้องสมัครสมาชิก และไม่ขอชื่อ อีเมล เบอร์โทรศัพท์ หรือตำแหน่งที่ตั้งของคุณ</li>
+<li>แอปสร้างรหัสสุ่มประจำการติดตั้ง ใช้แยก Watchlist ของเครื่องคุณและส่งการแจ้งเตือน</li>
+<li>ไม่มีโฆษณาภายในแอป ไม่ขายข้อมูล และไม่มีเครื่องมือติดตามพฤติกรรมข้ามแอป</li>
+<li>ล้าง Watchlist บนเซิร์ฟเวอร์ได้เองในแอป และล็อกการใช้งานถูกลบอัตโนมัติ — ล็อกคำขอ API ภายใน 30 วัน ส่วนล็อกของเซิร์ฟเวอร์เมื่อเต็มขนาดที่กำหนด</li>
+</ul>
+</section><nav class="card toc" aria-label="สารบัญ"><h2>สารบัญ</h2><ol><li><a href="#th-s1"><span class="n">1</span><span>เกี่ยวกับนโยบายนี้</span></a></li><li><a href="#th-s2"><span class="n">2</span><span>ข้อมูลที่เราเก็บ</span></a></li><li><a href="#th-s3"><span class="n">3</span><span>ข้อมูลที่เราไม่เก็บ</span></a></li><li><a href="#th-s4"><span class="n">4</span><span>เราใช้ข้อมูลอย่างไร</span></a></li><li><a href="#th-s5"><span class="n">5</span><span>ฐานทางกฎหมายในการประมวลผล</span></a></li><li><a href="#th-s6"><span class="n">6</span><span>การเปิดเผยข้อมูล</span></a></li><li><a href="#th-s7"><span class="n">7</span><span>การส่งข้อมูลไปต่างประเทศ</span></a></li><li><a href="#th-s8"><span class="n">8</span><span>ระยะเวลาเก็บข้อมูล</span></a></li><li><a href="#th-s9"><span class="n">9</span><span>การรักษาความปลอดภัย</span></a></li><li><a href="#th-s10"><span class="n">10</span><span>สิทธิของคุณ</span></a></li><li><a href="#th-s11"><span class="n">11</span><span>วิธีลบข้อมูลของคุณ</span></a></li><li><a href="#th-s12"><span class="n">12</span><span>ผู้เยาว์</span></a></li><li><a href="#th-s13"><span class="n">13</span><span>การเปลี่ยนแปลงนโยบาย</span></a></li><li><a href="#th-s14"><span class="n">14</span><span>ติดต่อเรา</span></a></li></ol></nav><section class="card sec" id="th-s1"><h2><span class="num">1</span><span>เกี่ยวกับนโยบายนี้</span></h2><p>นโยบายนี้อธิบายว่าผู้พัฒนาแอป Stock &amp; AI Trading (“เรา”) เก็บ ใช้ เปิดเผย และดูแลข้อมูลของคุณอย่างไร เมื่อคุณใช้แอป Stock &amp; AI Trading บน Android และเซิร์ฟเวอร์ API ที่แอปเชื่อมต่อ (รวมเรียกว่า “บริการ”) โดยเราเป็นผู้ควบคุมข้อมูลส่วนบุคคลตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (PDPA)</p>
+<p>บริการนี้ให้ข้อมูลการวิเคราะห์ทางเทคนิคเพื่อการศึกษา ไม่ใช่คำแนะนำการลงทุน และไม่มีการซื้อขายหลักทรัพย์หรือการชำระเงินในแอป</p>
+</section><section class="card sec" id="th-s2"><h2><span class="num">2</span><span>ข้อมูลที่เราเก็บ</span></h2><p>เราเก็บเฉพาะข้อมูลที่จำเป็นต่อการให้บริการ ดังนี้</p>
+<ul>
+<li class="term"><span class="term-name">รหัสการติดตั้ง (Install ID)</span>รหัสสุ่มที่ขึ้นต้นด้วย “android-” ซึ่งแอปสร้างขึ้นเมื่อเปิดใช้งานครั้งแรก ไม่ใช่ IMEI หมายเลขโทรศัพท์ หรือ Advertising ID และไม่ผูกกับตัวตนจริงของคุณ แอปส่งรหัสนี้ไปกับคำขอเกี่ยวกับ Watchlist และตอนลงทะเบียนรับการแจ้งเตือน</li>
+<li class="term"><span class="term-name">Watchlist ของคุณ</span>สัญลักษณ์หุ้นและตลาดที่คุณเพิ่ม (สูงสุด 100 ตัว) เก็บบนเซิร์ฟเวอร์โดยผูกกับรหัสการติดตั้ง</li>
+<li class="term"><span class="term-name">ข้อมูลการแจ้งเตือน</span>โทเคน Firebase Cloud Messaging (FCM), รหัสการติดตั้ง, ยี่ห้อและรุ่นของเครื่อง (เช่น Samsung SM-S921B), แพลตฟอร์ม, ภาษา, ประเภทการแจ้งเตือนที่รับ, สถานะเปิด/ปิด และเวลาที่ลงทะเบียนหรืออัปเดต</li>
+<li class="term"><span class="term-name">คำขอและล็อกของเซิร์ฟเวอร์</span>เมื่อแอปเรียกเซิร์ฟเวอร์ เราบันทึกหมายเลข IP, เวลา, เส้นทางของคำขอ (ซึ่งรวมสัญลักษณ์หุ้นที่คุณเปิดดู), วิธีการเรียก และผลลัพธ์ เว็บเซิร์ฟเวอร์ที่อยู่ด้านหน้า API ยังบันทึกล็อกการเข้าถึงมาตรฐาน เช่น หมายเลข IP, URL, user agent และ header ของคำขอ โดยรหัสการติดตั้งและ API key จะถูกปิดทับก่อนบันทึกทุกครั้ง</li>
+<li class="term"><span class="term-name">ค่าที่ใช้คำนวณ</span>ตัวเลขในหน้าจัดการความเสี่ยง (เงินลงทุน, ราคาเข้า, เปอร์เซ็นต์ตัดขาดทุน/ทำกำไร และความเสี่ยงต่อไม้) และสัญลักษณ์หุ้นที่คำนวณ (เพื่อให้คริปโตคิดเป็นเศษเหรียญได้) ถูกส่งไปคำนวณแล้วส่งผลกลับทันที เราไม่บันทึกค่าเหล่านี้</li>
+<li class="term"><span class="term-name">ประวัติการแจ้งเตือนที่ส่ง</span>รหัสการติดตั้งที่ได้รับการแจ้งเตือน, หุ้น, ประเภทการแจ้งเตือน, ข้อความ และเวลา</li>
+<li class="term"><span class="term-name">บันทึกการเปลี่ยนแปลง Watchlist</span>รหัสการติดตั้ง, การกระทำ (เพิ่ม ลบ ล้าง หรือโหลดชุดหุ้นพรีเซ็ต), สัญลักษณ์หุ้น และเวลา</li>
+<li class="term"><span class="term-name">ข้อมูลที่อยู่ในเครื่องเท่านั้น</span>ธีม, ภาษา, รหัสการติดตั้ง, การยอมรับข้อจำกัดความรับผิดชอบ (เวอร์ชันและเวลา) และประกาศในแอปที่คุณกดปิดแล้ว เก็บในพื้นที่ของแอปบนเครื่องคุณ โดยรหัสการติดตั้งจะไม่ถูกสำรองไปยังบัญชี Google หรือย้ายไปเครื่องใหม่</li>
+</ul>
+</section><section class="card sec" id="th-s3"><h2><span class="num">3</span><span>ข้อมูลที่เราไม่เก็บ</span></h2><ul>
+<li>ชื่อ อีเมล เบอร์โทรศัพท์ หรือบัญชีผู้ใช้และรหัสผ่าน</li>
+<li>ตำแหน่งที่ตั้ง (GPS) รายชื่อติดต่อ รูปภาพ ไฟล์ กล้อง หรือไมโครโฟน — แอปไม่ขอสิทธิ์เหล่านี้ และเราไม่ใช้หมายเลข IP เพื่อระบุตำแหน่งของคุณ</li>
+<li>Advertising ID หรือข้อมูลเพื่อการโฆษณา — แอปไม่แสดงโฆษณา และไม่มี SDK โฆษณา วิเคราะห์ หรือติดตามผู้ใช้</li>
+<li>ข้อมูลบัญชีหลักทรัพย์ บัญชีธนาคาร หรือบัตร — แอปไม่มีการซื้อขายหรือการชำระเงิน</li>
+</ul>
+<p>เราอาจโปรโมตแอปนี้บน Google Play หรือช่องทางโฆษณาอื่น แต่ไม่ส่งข้อมูลใดจากแอปหรือเซิร์ฟเวอร์ของเราไปยังแพลตฟอร์มโฆษณา</p>
+</section><section class="card sec" id="th-s4"><h2><span class="num">4</span><span>เราใช้ข้อมูลอย่างไร</span></h2><ul>
+<li>ให้บริการตามที่คุณขอ: แสดงราคา อินดิเคเตอร์ และผลวิเคราะห์ AI เก็บ Watchlist ของเครื่องคุณ และคำนวณความเสี่ยง</li>
+<li>ส่งการแจ้งเตือนเกี่ยวกับหุ้นที่คุณติดตาม ในภาษาที่คุณเลือก</li>
+<li>รักษาความปลอดภัย: ตรวจสอบ API key จำกัดจำนวนคำขอต่อหมายเลข IP และป้องกันการใช้งานในทางที่ผิด</li>
+<li>ตรวจหาและแก้ไขข้อผิดพลาด และดูแลให้ระบบทำงานได้ดี</li>
+<li>นับสถิติแบบรวม เช่น จำนวนเครื่องที่ติดตามหุ้นแต่ละตัว เพื่อจัดลำดับการสแกนสัญญาณ</li>
+</ul>
+<p>ผลวิเคราะห์ AI คำนวณจากข้อมูลราคาตลาดเท่านั้น ไม่ได้ใช้ข้อมูลส่วนตัวของคุณ และเราไม่ใช้ข้อมูลของคุณเพื่อการโฆษณา การทำโปรไฟล์ หรือการตัดสินใจอัตโนมัติที่มีผลต่อคุณ</p>
+</section><section class="card sec" id="th-s5"><h2><span class="num">5</span><span>ฐานทางกฎหมายในการประมวลผล</span></h2><ul>
+<li class="term"><span class="term-name">การให้บริการตามคำขอของคุณ</span>Watchlist การวิเคราะห์ และการคำนวณ</li>
+<li class="term"><span class="term-name">ประโยชน์โดยชอบด้วยกฎหมาย</span>ล็อกของเซิร์ฟเวอร์เพื่อความปลอดภัย การป้องกันการใช้งานในทางที่ผิด และการแก้ไขปัญหา</li>
+<li class="term"><span class="term-name">ความยินยอม</span>การแจ้งเตือน ซึ่งคุณอนุญาตผ่านสิทธิ์การแจ้งเตือนของ Android และถอนได้ทุกเมื่อในการตั้งค่าของเครื่อง</li>
+<li class="term"><span class="term-name">หน้าที่ตามกฎหมาย</span>เมื่อกฎหมายหรือหน่วยงานรัฐที่มีอำนาจกำหนดให้เราเก็บหรือเปิดเผยข้อมูล</li>
+</ul>
+</section><section class="card sec" id="th-s6"><h2><span class="num">6</span><span>การเปิดเผยข้อมูล</span></h2><p>เราไม่ขายหรือให้เช่าข้อมูลของคุณ และไม่แบ่งปันเพื่อการโฆษณา เราเปิดเผยข้อมูลเฉพาะกรณีต่อไปนี้</p>
+<ul>
+<li class="term"><span class="term-name">Google Firebase Cloud Messaging</span>ใช้ส่งการแจ้งเตือนไปยังเครื่องของคุณ Firebase SDK ในแอปสร้าง Firebase installation ID และส่งให้ Google เพื่อออกโทเคน FCM จากนั้น Google ประมวลผลโทเคนและเนื้อหาการแจ้งเตือนตามนโยบายของ Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">นโยบายความเป็นส่วนตัวของ Google</a>, <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">ความเป็นส่วนตัวและความปลอดภัยใน Firebase</a>)</li>
+<li class="term"><span class="term-name">ผู้ให้บริการเซิร์ฟเวอร์</span>เซิร์ฟเวอร์ของเราทำงานบนคลาวด์ที่เราเช่า ผู้ให้บริการจัดเก็บข้อมูลแทนเราตามเงื่อนไขการให้บริการ</li>
+<li class="term"><span class="term-name">แหล่งข้อมูลราคา</span>เซิร์ฟเวอร์ของเราดึงราคาจากแหล่งข้อมูลสาธารณะ เช่น Yahoo Finance ด้วยสัญลักษณ์หุ้นเท่านั้น โดยไม่ส่งข้อมูลใด ๆ ของคุณไปด้วย</li>
+<li class="term"><span class="term-name">หน่วยงานตามกฎหมาย</span>เมื่อกฎหมาย คำสั่งศาล หรือหน่วยงานรัฐที่มีอำนาจกำหนด หรือเพื่อปกป้องสิทธิและความปลอดภัยของผู้ใช้และบริการ</li>
+</ul>
+</section><section class="card sec" id="th-s7"><h2><span class="num">7</span><span>การส่งข้อมูลไปต่างประเทศ</span></h2><p>Google และผู้ให้บริการเซิร์ฟเวอร์อาจประมวลผลข้อมูลในศูนย์ข้อมูลนอกประเทศไทย เราเลือกใช้ผู้ให้บริการที่มีมาตรฐานการคุ้มครองข้อมูลที่เหมาะสม และส่งข้อมูลเท่าที่จำเป็นต่อการให้บริการเท่านั้น</p>
+</section><section class="card sec" id="th-s8"><h2><span class="num">8</span><span>ระยะเวลาเก็บข้อมูล</span></h2><ul>
+<li class="term"><span class="term-name">Watchlist</span>จนกว่าคุณจะกด “ล้างทั้งหมด” ในแอปหรือขอให้ลบ หากถอนการติดตั้งโดยไม่ล้างก่อน รายการจะค้างอยู่บนเซิร์ฟเวอร์โดยผูกกับรหัสที่ไม่มีเครื่องใดใช้แล้ว</li>
+<li class="term"><span class="term-name">ข้อมูลการแจ้งเตือน</span>จนกว่าจะถอนการติดตั้งแอป (โทเคนจะหมดอายุ และถูกลบอัตโนมัติเมื่อระบบส่งการแจ้งเตือนครั้งถัดไปไม่สำเร็จ) หรือจนกว่าคุณจะขอให้ลบ</li>
+<li class="term"><span class="term-name">ล็อกคำขอ API และประวัติการแจ้งเตือนที่ส่ง</span>30 วัน แล้วลบอัตโนมัติ</li>
+<li class="term"><span class="term-name">บันทึกการเปลี่ยนแปลง Watchlist</span>เก็บไว้เพื่อตรวจสอบความปลอดภัยของระบบ และลบเมื่อคุณขอ</li>
+<li class="term"><span class="term-name">ล็อกการเข้าถึงของเว็บเซิร์ฟเวอร์และล็อกการทำงานของเซิร์ฟเวอร์</span>ไม่เกิน 30 MB ต่อส่วนของเซิร์ฟเวอร์ เมื่อเต็มแล้ว รายการที่เก่าที่สุดจะถูกลบอัตโนมัติ ล็อกเหล่านี้มีหมายเลข IP, เวลา และ URL ของคำขอ แต่ไม่มีรหัสการติดตั้งหรือ API key</li>
+<li class="term"><span class="term-name">ตัวนับจำนวนคำขอต่อ IP</span>60 วินาที ในหน่วยความจำเท่านั้น ไม่บันทึกลงดิสก์</li>
+<li class="term"><span class="term-name">ข้อมูลในเครื่อง</span>จนกว่าคุณจะล้างข้อมูลแอปหรือถอนการติดตั้ง</li>
+</ul>
+</section><section class="card sec" id="th-s9"><h2><span class="num">9</span><span>การรักษาความปลอดภัย</span></h2><ul>
+<li>ข้อมูลระหว่างแอปกับเซิร์ฟเวอร์เข้ารหัสด้วย HTTPS (TLS) และแอปเวอร์ชันเผยแพร่เชื่อมต่อผ่าน HTTPS เท่านั้น</li>
+<li>ทุกคำขอต้องมี API key และถูกจำกัดจำนวนต่อหมายเลข IP</li>
+<li>แต่ละเครื่องเห็นและแก้ไขได้เฉพาะ Watchlist ของตนเอง</li>
+<li>ฟังก์ชันของผู้ดูแลระบบต้องใช้กุญแจแยกที่ไม่ได้อยู่ในแอป และแสดงโทเคน FCM แบบปิดบางส่วน</li>
+<li>จำกัดการเข้าถึงเซิร์ฟเวอร์และข้อมูลเฉพาะผู้พัฒนา</li>
+</ul>
+<p>ไม่มีระบบใดปลอดภัยได้ 100% หากเกิดเหตุละเมิดข้อมูลส่วนบุคคลที่มีความเสี่ยงต่อสิทธิของคุณ เราจะแจ้งสำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคลและแจ้งคุณตามที่กฎหมายกำหนด</p>
+</section><section class="card sec" id="th-s10"><h2><span class="num">10</span><span>สิทธิของคุณ</span></h2><p>ภายใต้ PDPA คุณมีสิทธิ</p>
+<ul>
+<li>ขอเข้าถึงและขอรับสำเนาข้อมูลของคุณ</li>
+<li>ขอให้แก้ไขข้อมูลให้ถูกต้องและเป็นปัจจุบัน</li>
+<li>ขอให้ลบ ทำลาย หรือทำให้ข้อมูลไม่สามารถระบุตัวตนได้</li>
+<li>ขอให้ระงับการใช้ข้อมูล</li>
+<li>คัดค้านการเก็บ ใช้ หรือเปิดเผยข้อมูล</li>
+<li>ขอรับข้อมูลในรูปแบบที่อ่านได้ด้วยเครื่อง หรือขอให้ส่งไปยังผู้ควบคุมข้อมูลรายอื่น</li>
+<li>ถอนความยินยอมเมื่อใดก็ได้ โดยไม่กระทบการประมวลผลที่ทำไปก่อนหน้า</li>
+<li>ร้องเรียนต่อ<a href="https://www.pdpc.or.th" target="_blank" rel="noopener">สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (สคส.)</a></li>
+</ul>
+<p>ส่งคำขอทางอีเมลในหัวข้อ “ติดต่อเรา” พร้อมรหัสการติดตั้งของคุณ (ในแอป: ⚙️ ตั้งค่า → ความเป็นส่วนตัว) เพราะเราไม่มีข้อมูลอื่นที่ใช้ระบุว่าข้อมูลใดเป็นของคุณ เราจะตอบกลับภายใน 30 วัน</p>
+</section><section class="card sec" id="th-s11"><h2><span class="num">11</span><span>วิธีลบข้อมูลของคุณ</span></h2><ul>
+<li class="term"><span class="term-name">Watchlist</span>หน้า “ตลาด” → “ล้างทั้งหมด” ลบรายการบนเซิร์ฟเวอร์ทันที</li>
+<li class="term"><span class="term-name">การแจ้งเตือน</span>ปิดได้ในการตั้งค่าการแจ้งเตือนของ Android และข้อมูลการลงทะเบียนจะถูกลบอัตโนมัติหลังถอนการติดตั้งแอป</li>
+<li class="term"><span class="term-name">ทุกอย่างที่ผูกกับเครื่องของคุณ</span>อีเมลหาเราพร้อมรหัสการติดตั้ง เราจะลบ Watchlist ข้อมูลการแจ้งเตือน และล็อกที่ผูกกับรหัสนั้น</li>
+<li class="term"><span class="term-name">ข้อมูลในเครื่อง</span>ล้างข้อมูลแอป หรือถอนการติดตั้ง</li>
+</ul>
+<p>แนะนำให้ล้าง Watchlist ก่อนถอนการติดตั้ง เพราะเมื่อถอนการติดตั้งแล้ว รหัสการติดตั้งจะหายไป และเราจะไม่สามารถระบุได้ว่าข้อมูลใดเป็นของคุณ</p>
+</section><section class="card sec" id="th-s12"><h2><span class="num">12</span><span>ผู้เยาว์</span></h2><p>บริการนี้มีไว้สำหรับผู้ที่มีอายุ 18 ปีขึ้นไป และไม่ได้ออกแบบมาสำหรับเด็ก เราไม่ได้ตั้งใจเก็บข้อมูลของผู้ที่อายุต่ำกว่า 18 ปี หากพบว่ามีการเก็บ กรุณาติดต่อเราเพื่อลบ</p>
+</section><section class="card sec" id="th-s13"><h2><span class="num">13</span><span>การเปลี่ยนแปลงนโยบาย</span></h2><p>เราอาจปรับปรุงนโยบายนี้เป็นครั้งคราว และจะแก้วันที่ “ปรับปรุงล่าสุด” ด้านบน หากมีการเปลี่ยนแปลงที่สำคัญ เราจะแจ้งในแอปหรือในหน้าแอปบน Google Play</p>
+</section><section class="card sec" id="th-s14"><h2><span class="num">14</span><span>ติดต่อเรา</span></h2><p>หากมีคำถาม หรือต้องการใช้สิทธิเกี่ยวกับข้อมูลส่วนบุคคล ติดต่อผู้พัฒนาแอป Stock &amp; AI Trading ได้ที่</p>
+<ul>
+<li class="term"><span class="term-name">อีเมล</span><a href="mailto:a.tumtam@gmail.com">a.tumtam@gmail.com</a></li>
+</ul>
+<p>หากฉบับภาษาไทยและภาษาอังกฤษมีความแตกต่างกัน ให้ถือฉบับภาษาไทยเป็นหลัก</p>
+<a class="cta" href="mailto:a.tumtam@gmail.com"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><polyline points="3.5 6.5 12 13 20.5 6.5"/></svg>ส่งอีเมลถึงเรา</a></section></article><article data-lang="en" lang="en"><section class="card glance" id="en-glance"><div class="glance-head"><svg class="glance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6L12 3z"/><polyline points="8.8 12.2 11 14.4 15.4 10"/></svg><h2>At a glance</h2></div><ul class="checks">
+<li>No sign-up: we never ask for your name, email address, phone number or location.</li>
+<li>The app creates a random install ID to keep your watchlist separate and to deliver alerts.</li>
+<li>No ads inside the app, no selling of data and no cross-app tracking.</li>
+<li>You can clear your watchlist on the server from the app, and usage logs are deleted automatically — API request logs after 30 days, server logs once they reach a set size.</li>
+</ul>
+</section><nav class="card toc" aria-label="Contents"><h2>Contents</h2><ol><li><a href="#en-s1"><span class="n">1</span><span>About this policy</span></a></li><li><a href="#en-s2"><span class="n">2</span><span>Information we collect</span></a></li><li><a href="#en-s3"><span class="n">3</span><span>What we do not collect</span></a></li><li><a href="#en-s4"><span class="n">4</span><span>How we use information</span></a></li><li><a href="#en-s5"><span class="n">5</span><span>Legal basis for processing</span></a></li><li><a href="#en-s6"><span class="n">6</span><span>Sharing</span></a></li><li><a href="#en-s7"><span class="n">7</span><span>International transfers</span></a></li><li><a href="#en-s8"><span class="n">8</span><span>How long we keep it</span></a></li><li><a href="#en-s9"><span class="n">9</span><span>Security</span></a></li><li><a href="#en-s10"><span class="n">10</span><span>Your rights</span></a></li><li><a href="#en-s11"><span class="n">11</span><span>How to delete your data</span></a></li><li><a href="#en-s12"><span class="n">12</span><span>Children</span></a></li><li><a href="#en-s13"><span class="n">13</span><span>Changes to this policy</span></a></li><li><a href="#en-s14"><span class="n">14</span><span>Contact us</span></a></li></ol></nav><section class="card sec" id="en-s1"><h2><span class="num">1</span><span>About this policy</span></h2><p>This policy explains how the developer of Stock &amp; AI Trading (“we”) collects, uses, shares and protects your information when you use the Stock &amp; AI Trading app for Android and the API server it connects to (together, the “Service”). We are the data controller under Thailand's Personal Data Protection Act B.E. 2562 (2019) (PDPA).</p>
+<p>The Service provides technical-analysis information for education. It is not investment advice, and there is no trading or payment inside the app.</p>
+</section><section class="card sec" id="en-s2"><h2><span class="num">2</span><span>Information we collect</span></h2><p>We collect only what the Service needs in order to work:</p>
+<ul>
+<li class="term"><span class="term-name">Install ID</span>A random identifier starting with “android-”, created by the app on first launch. It is not your IMEI, phone number or advertising ID, and it is not tied to your real identity. The app sends it with watchlist requests and when it registers for alerts.</li>
+<li class="term"><span class="term-name">Your watchlist</span>The symbols and markets you add (up to 100), stored on our server under your install ID.</li>
+<li class="term"><span class="term-name">Alert registration</span>Your Firebase Cloud Messaging (FCM) token, install ID, device manufacturer and model (e.g. Samsung SM-S921B), platform, language, the alert types you receive, whether alerts are on, and when this was registered or last updated.</li>
+<li class="term"><span class="term-name">Requests and server logs</span>When the app calls our server we log the IP address, time, request path (which includes the symbol you viewed), method and result. The web server in front of the API also keeps a standard access log with the IP address, URL, user agent and request headers, with your install ID and the API key always blanked out before it is written.</li>
+<li class="term"><span class="term-name">Calculator inputs</span>The numbers on the risk screen (capital, entry price, stop-loss and take-profit percentages, risk per trade) and the symbol they are for (so crypto can be sized in fractions of a coin) are sent to be calculated and the result comes straight back. We do not store these inputs.</li>
+<li class="term"><span class="term-name">Alerts sent</span>Which install ID received an alert, for which stock, the alert type, its text and the time.</li>
+<li class="term"><span class="term-name">Watchlist change log</span>The install ID, the action (add, remove, clear or load a preset), the symbol and the time.</li>
+<li class="term"><span class="term-name">Stored only on your phone</span>Your theme, language, install ID, your acceptance of the disclaimer (version and time) and the in-app notice you closed are kept in the app's storage on your phone. The install ID is left out of Google backups and device transfers.</li>
+</ul>
+</section><section class="card sec" id="en-s3"><h2><span class="num">3</span><span>What we do not collect</span></h2><ul>
+<li>Your name, email address, phone number, or any account or password</li>
+<li>Location (GPS), contacts, photos, files, camera or microphone — the app does not ask for these permissions, and we do not use your IP address to locate you</li>
+<li>Your advertising ID or any advertising data — the app shows no ads and has no ad, analytics or tracking SDK</li>
+<li>Brokerage, bank or card details — the app has no trading or payments</li>
+</ul>
+<p>We may promote this app on Google Play or other advertising channels, but we never send information from the app or our server to an advertising platform.</p>
+</section><section class="card sec" id="en-s4"><h2><span class="num">4</span><span>How we use information</span></h2><ul>
+<li>To provide what you ask for: prices, indicators and AI analysis, your install's watchlist, and risk calculations</li>
+<li>To send alerts about the stocks you watch, in the language you chose</li>
+<li>To keep the Service secure: checking the API key, limiting requests per IP address and preventing abuse</li>
+<li>To find and fix errors and keep the Service running well</li>
+<li>To count in aggregate, e.g. how many installs watch each stock, to decide which stocks to scan first</li>
+</ul>
+<p>AI analysis is computed from market price data only, never from your personal information, and we do not use your information for advertising, profiling or automated decisions that affect you.</p>
+</section><section class="card sec" id="en-s5"><h2><span class="num">5</span><span>Legal basis for processing</span></h2><ul>
+<li class="term"><span class="term-name">Providing the Service you request</span>Your watchlist, analysis and calculations</li>
+<li class="term"><span class="term-name">Legitimate interests</span>Server logs for security, abuse prevention and troubleshooting</li>
+<li class="term"><span class="term-name">Consent</span>Alerts, which you allow through Android's notification permission and can withdraw at any time in your phone's settings</li>
+<li class="term"><span class="term-name">Legal obligations</span>When a law or a competent authority requires us to keep or disclose information</li>
+</ul>
+</section><section class="card sec" id="en-s6"><h2><span class="num">6</span><span>Sharing</span></h2><p>We do not sell or rent your information, or share it for advertising. We share it only as follows:</p>
+<ul>
+<li class="term"><span class="term-name">Google Firebase Cloud Messaging</span>Delivers alerts to your phone. The Firebase SDK in the app creates a Firebase installation ID and sends it to Google to issue the FCM token; Google then processes the token and the alert content under its own policies (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>, <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy and Security in Firebase</a>).</li>
+<li class="term"><span class="term-name">Hosting provider</span>Our server runs on cloud infrastructure we rent, and the provider stores data on our behalf under its service terms.</li>
+<li class="term"><span class="term-name">Market data sources</span>Our server fetches prices from public sources such as Yahoo Finance using only the stock symbol, without any of your information.</li>
+<li class="term"><span class="term-name">Authorities</span>When required by law, a court order or a competent authority, or to protect the rights and safety of users and the Service.</li>
+</ul>
+</section><section class="card sec" id="en-s7"><h2><span class="num">7</span><span>International transfers</span></h2><p>Google and our hosting provider may process information in data centres outside Thailand. We use providers with appropriate data-protection standards and send only what the Service needs.</p>
+</section><section class="card sec" id="en-s8"><h2><span class="num">8</span><span>How long we keep it</span></h2><ul>
+<li class="term"><span class="term-name">Watchlist</span>Until you tap “Clear All” in the app or ask us to delete it. If you uninstall without clearing it, the list stays on the server under an ID that no device uses any more.</li>
+<li class="term"><span class="term-name">Alert registration</span>Until you uninstall the app (the token expires and is removed automatically the next time an alert cannot be delivered), or until you ask us to delete it.</li>
+<li class="term"><span class="term-name">API request logs and alerts sent</span>30 days, then deleted automatically.</li>
+<li class="term"><span class="term-name">Watchlist change log</span>Kept for security auditing; deleted when you ask.</li>
+<li class="term"><span class="term-name">Web server access logs and the server's process logs</span>Up to 30 MB for each part of the server; once full, the oldest entries are deleted automatically. They hold the IP address, time and URL of requests, but never your install ID or the API key.</li>
+<li class="term"><span class="term-name">Per-IP request counters</span>60 seconds, in memory only; never written to disk.</li>
+<li class="term"><span class="term-name">Data on your phone</span>Until you clear the app's data or uninstall it.</li>
+</ul>
+</section><section class="card sec" id="en-s9"><h2><span class="num">9</span><span>Security</span></h2><ul>
+<li>Data between the app and our server is encrypted with HTTPS (TLS), and release builds of the app connect only over HTTPS</li>
+<li>Every request needs an API key, and requests are rate-limited per IP address</li>
+<li>Each install can see and change only its own watchlist</li>
+<li>Admin functions need a separate key that is not in the app, and they show FCM tokens masked</li>
+<li>Access to the server and its data is limited to the developer</li>
+</ul>
+<p>No system is 100% secure. If a personal data breach puts your rights at risk, we will notify Thailand's Personal Data Protection Committee office, and you, as the law requires.</p>
+</section><section class="card sec" id="en-s10"><h2><span class="num">10</span><span>Your rights</span></h2><p>Under the PDPA you have the right to:</p>
+<ul>
+<li>Access your information and get a copy of it</li>
+<li>Have it corrected and kept up to date</li>
+<li>Have it deleted, destroyed or anonymised</li>
+<li>Have its use restricted</li>
+<li>Object to its collection, use or disclosure</li>
+<li>Receive it in a machine-readable format or have it sent to another controller</li>
+<li>Withdraw your consent at any time, without affecting processing done before</li>
+<li>Complain to Thailand's <a href="https://www.pdpc.or.th" target="_blank" rel="noopener">Office of the Personal Data Protection Committee (PDPC)</a></li>
+</ul>
+<p>Email your request to the address under “Contact us”, with your install ID (in the app: ⚙️ Settings → Privacy), since we hold nothing else that tells us which data is yours. We reply within 30 days.</p>
+</section><section class="card sec" id="en-s11"><h2><span class="num">11</span><span>How to delete your data</span></h2><ul>
+<li class="term"><span class="term-name">Watchlist</span>Market tab → “Clear All” deletes the list on the server at once.</li>
+<li class="term"><span class="term-name">Alerts</span>Turn them off in Android's notification settings; the registration is removed automatically after you uninstall the app.</li>
+<li class="term"><span class="term-name">Everything linked to your install</span>Email us your install ID and we will delete the watchlist, alert registration and logs linked to it.</li>
+<li class="term"><span class="term-name">Data on your phone</span>Clear the app's data, or uninstall it.</li>
+</ul>
+<p>Clear your watchlist before uninstalling: once the app is gone, so is the install ID, and we can no longer tell which data is yours.</p>
+</section><section class="card sec" id="en-s12"><h2><span class="num">12</span><span>Children</span></h2><p>The Service is meant for people aged 18 or over and is not designed for children. We do not knowingly collect information from anyone under 18; if you believe we have, contact us and we will delete it.</p>
+</section><section class="card sec" id="en-s13"><h2><span class="num">13</span><span>Changes to this policy</span></h2><p>We may update this policy from time to time and will change the “Last updated” date above. For significant changes we will let you know in the app or on the app's Google Play page.</p>
+</section><section class="card sec" id="en-s14"><h2><span class="num">14</span><span>Contact us</span></h2><p>For questions, or to exercise your rights, contact the developer of Stock &amp; AI Trading at:</p>
+<ul>
+<li class="term"><span class="term-name">Email</span><a href="mailto:a.tumtam@gmail.com">a.tumtam@gmail.com</a></li>
+</ul>
+<p>If the Thai and English versions differ, the Thai version prevails.</p>
+<a class="cta" href="mailto:a.tumtam@gmail.com"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><polyline points="3.5 6.5 12 13 20.5 6.5"/></svg>Email us</a></section></article></main>
+<footer class="wrap footer"><div class="footer-row" data-lang="th" lang="th"><span>Stock &amp; AI Trading · ปรับปรุงล่าสุด: 15 ตุลาคม 2569</span><a href="#top"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 15 12 9 18 15"/></svg>กลับด้านบน</a></div><div class="footer-row" data-lang="en" lang="en"><span>Stock &amp; AI Trading · Last updated: 15 October 2026</span><a href="#top"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 15 12 9 18 15"/></svg>Back to top</a></div></footer>
+<script>
+(function () {
+  var asked = new URLSearchParams(location.search).get("lang") || location.hash.slice(1, 3);
+  var lang = asked === "en" || asked === "th" ? asked
+    : ((navigator.language || "").toLowerCase().indexOf("th") === 0 ? "th" : "en");
+  function use(l) { document.getElementById("lang-" + l).checked = true; document.documentElement.lang = l; }
+  use(lang);
+  ["th", "en"].forEach(function (l) {
+    document.getElementById("lang-" + l).addEventListener("change", function () { use(l); });
+  });
+})();
+</script>
+</body>
+</html>
